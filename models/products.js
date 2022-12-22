@@ -10,7 +10,7 @@ const productSchema = mongoose.Schema({
         type: Number,
         require: [true, 'price must be provided']
     },
-    feature: {
+    featured: {
         type: Boolean,
         default: false
     },
